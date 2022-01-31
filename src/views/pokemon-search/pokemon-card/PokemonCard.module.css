@@ -1,0 +1,30 @@
+.name {
+	text-transform: capitalize;
+}
+
+.sprite {
+	max-width: 200px;
+}
+
+.table {
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 50%;
+	margin: 1rem auto;
+}
+
+.header,
+.row {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 0.5rem;
+}
+
+.row > td {
+	border: 1px solid #dddddd;
+	padding: 0.5rem;
+}
+
+.row:nth-child(even) {
+	background-color: #dddddd;
+}

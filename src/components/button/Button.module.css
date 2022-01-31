@@ -1,0 +1,19 @@
+.button {
+	border: 1px solid black;
+	background: transparent;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.default {
+	border-radius: 0.5rem;
+}
+
+.inline-left {
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+
+.inline-right {
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+}

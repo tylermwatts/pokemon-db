@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: fit-content;
+	margin: auto;
+}
+
+.inputContainer {
+	display: flex;
+	margin: 0.5rem;
+}
+
+.inputContainer:focus-within {
+	outline: 2px solid blue;
+	outline-offset: 2px;
+}
+
+.input {
+	border: 1px solid black;
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+	padding: 0.5rem;
+}
+.input:focus-within {
+	outline: none;
+}
+
+.label {
+	color: #0a0a0a;
+}
